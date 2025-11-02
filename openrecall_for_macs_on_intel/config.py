@@ -35,8 +35,8 @@ if args.storage_path:
     db_path = os.path.join(appsupport_folder, "recall.db")
 else:
     appsupport_folder = get_appsupport_folder()
-    db_path = os.path.join(appdata_folder, "recall.db")
-    screenshots_path = os.path.join(appdata_folder, "screenshots")
+    db_path = os.path.join(appsupport_folder, "recall.db")
+    screenshots_path = os.path.join(appsupport_folder, "screenshots")
 
 if not os.path.exists(screenshots_path):
     try:

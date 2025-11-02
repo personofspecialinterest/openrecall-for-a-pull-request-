@@ -4,11 +4,11 @@ import numpy as np
 from flask import Flask, render_template_string, request, send_from_directory
 from jinja2 import BaseLoader
 
-from openrecall.config import appsupport_folder, screenshots_path
-from openrecall.database import create_db, get_all_entries, get_timestamps
-from openrecall.nlp import cosine_similarity, get_embedding
-from openrecall.screenshot import record_screenshots_thread
-from openrecall.utils import human_readable_time, timestamp_to_human_readable
+from openrecall_for_macs_on_intel.config import appsupport_folder, screenshots_path
+from openrecall_for_macs_on_intel.database import create_db, get_all_entries, get_timestamps
+from openrecall_for_macs_on_intel.nlp import cosine_similarity, get_embedding
+from openrecall_for_macs_on_intel.screenshot import record_screenshots_thread
+from openrecall_for_macs_on_intel.utils import human_readable_time, timestamp_to_human_readable
 
 app = Flask(__name__)
 

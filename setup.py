@@ -25,7 +25,7 @@ extras_require = {
     "pyobjc==10.3",
     "python-doctr": [
         "python-doctr @ git+https://github.com/koenvaneijk/doctr.git@af711bc04eb8876a7189923fb51ec44481ee18cd"
-    ],
+    ]
 }
 
 # Determine the current OS
